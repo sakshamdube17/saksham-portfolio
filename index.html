@@ -1,97 +1,143 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saksham Dube | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #6c63ff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            font-size: 1.2em;
-        }
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #6c63ff;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            padding: 10px 0;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #6c63ff;
-            color: white;
-        }
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saksham Dube's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #ddd;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    header h2 {
+      font-size: 1.25rem;
+      color: #666;
+    }
+    section {
+      margin-top: 3rem;
+    }
+    h3 {
+      color: #2d2d2d;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 1rem 0;
+    }
+    .skills li {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 5px;
+      margin-right: 0.5rem;
+    }
+    .contact-info li {
+      margin: 0.5rem 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Saksham Dube</h1>
-        <p>Java Developer | Spring Boot Specialist | Problem Solver</p>
-    </header>
+  <header>
+    <h1>Saksham Dube</h1>
+    <h2>Java Developer | Spring Boot Specialist | Problem Solver</h2>
+  </header>
 
+  <div class="container">
     <section>
-        <h2>About Me</h2>
-        <p>I am a software developer with expertise in Java, Spring Boot, and React. I enjoy solving complex problems with optimized solutions and have experience building dynamic web applications.</p>
+      <h3>About Me</h3>
+      <p>I am a software developer with expertise in Java, Spring Boot, and React. I enjoy solving complex problems with optimized solutions and have experience building dynamic web applications.</p>
     </section>
 
     <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>E-commerce Application:</strong> Developed a full-stack web app using Java and Spring Boot.</li>
-            <li><strong>JavaFX Games:</strong> Created games like Tic-tac-toe and Snake & Ladder.</li>
-        </ul>
+      <h3>Education</h3>
+      <ul>
+        <li><strong>Bachelor of Engineering (Information Technology)</strong> - Rungta College of Engineering and Technology (2017–2021) - CGPA: 7.2</li>
+        <li><strong>12th Class (PCM)</strong> - Vikas Vidyaniketan (2015–2016) - Percentage: 74%</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Java, Spring Boot, React</li>
-            <li>MongoDB, SQL, NoSQL</li>
-            <li>Git, Docker, Postman</li>
-        </ul>
+      <h3>Experience</h3>
+      <ul>
+        <li><strong>Software Developer</strong> - Logicly Infotech (Aug 2023 – Present)</li>
+        <li>Developed and maintained dynamic web applications for seamless performance across devices.</li>
+        <li>Optimized database management with advanced querying techniques, enhancing data access speed.</li>
+        <li>Led client interactions, translating feedback into tailored solutions.</li>
+        <li>Reduced production bugs by introducing automated testing and robust code reviews.</li>
+        <li>Built scalable web applications with Spring Boot, MongoDB, and Bootstrap.</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sakshamdube17@gmail.com">sakshamdube17@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/sakshamdube" target="_blank">github.com/sakshamdube</a></p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>React</li>
+        <li>MongoDB</li>
+        <li>SQL</li>
+        <li>NoSQL</li>
+        <li>Git</li>
+        <li>Docker</li>
+        <li>Postman</li>
+      </ul>
     </section>
 
-    <footer>
-        <p>© 2024 Saksham Dube. Powered by GitHub Pages.</p>
-    </footer>
+    <section>
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>E-commerce Application:</strong> Developed a full-stack web app using Java and Spring Boot.</li>
+        <li><strong>JavaFX Games:</strong> Created interactive games like Tic-tac-toe and Snake & Ladder.</li>
+        <li><strong>The Events (Multivendor Platform):</strong> Optimized and maintained a multivendor marketplace.</li>
+        <li><strong>Radigone (Online Advertising Platform):</strong> Managed ad creation and analytics for an online platform.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Certifications</h3>
+      <ul>
+        <li><strong>Java Full-Stack Development (AccioJobs, 2022–2023):</strong> Mastered Java and Spring Boot with a focus on backend performance and scalability.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Extracurricular Activities</h3>
+      <ul>
+        <li><strong>NCC ‘C’ Certificate</strong> - Achieved with an A grade.</li>
+        <li><strong>CBSE Cluster Basketball Captain</strong> - Led the team and demonstrated leadership skills.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Contact</h3>
+      <ul class="contact-info">
+        <li><strong>Email:</strong> sakshamdube17@gmail.com</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/sakshamdube17" target="_blank">github.com/sakshamdube17</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sakshamdube17" target="_blank">linkedin.com/in/sakshamdube17</a></li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
